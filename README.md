@@ -1,0 +1,2 @@
+# blinkscore
+BlinksCore Official Website
