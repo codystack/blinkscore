@@ -2487,7 +2487,7 @@ START: Theme Footer CSS
 
 .footer-main-area {
   position: relative;
-  padding: 100px 0 90px 0;
+  padding: 100px 0 60px 0;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .footer-main-area {
@@ -2610,7 +2610,7 @@ START: Theme Footer CSS
   opacity: 1;
 }
 .social-links.style-3 ul li a:hover i {
-  color: var(--tj-color-common-white);
+  color: var(--tj-color-theme-dark);
 }
 
 .widget-nav-menu {
@@ -3256,6 +3256,9 @@ START: Theme Footer CSS
 
 .tj-copyright-area-2 .copyright-content-area {
   padding: 25px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .tj-copyright-area-2 .copyright-text p {
   color: var(--tj-color-text-body-2);
