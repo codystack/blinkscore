@@ -11310,18 +11310,18 @@ START: Testimonial CSS
   margin-bottom: 8px;
 }
 .rating-box .star-ratings {
-  -webkit-text-stroke: 1px var(--tj-color-common-white);
+  -webkit-text-stroke: 1px var(--tj-color-theme-dark);
 }
 .rating-box .star-ratings .fill-ratings {
-  color: var(--tj-color-common-white);
+  color: var(--tj-color-theme-dark);
 }
 .rating-box .rating-text {
-  color: var(--tj-color-common-white);
+  color: var(--tj-color-theme-dark);
 }
 .rating-box .title {
   font-size: 74px;
   line-height: 1;
-  color: var(--tj-color-common-white);
+  color: var(--tj-color-theme-dark);
   margin-bottom: 58px;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
