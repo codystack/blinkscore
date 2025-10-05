@@ -18,13 +18,13 @@
 
                                     <li class="has-dropdown">
                                         <a href="#">Services</a>
-                                        <ul class="sub-menu  mega-menu-service">
+                                        <ul class="sub-menu mega-menu-service">
                                             <li>
-                                                <a class="mega-menu-service-single" href="service-details.html">
+                                                <a class="mega-menu-service-single" href="proof-of-fund">
                                                     <span class="mega-menu-service-icon">
                                                         <i class="tji-service-1"></i>
                                                     </span>
-                                                    <span class="mega-menu-service-title">Business Strategy Development</span>
+                                                    <span class="mega-menu-service-title">Proof of Funds (POF)</span>
                                                     <span class="mega-menu-service-nav">
                                                         <i class="tji-arrow-right-long"></i>
                                                         <i class="tji-arrow-right-long"></i>
@@ -32,11 +32,11 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a class="mega-menu-service-single" href="service-details.html">
+                                                <a class="mega-menu-service-single" href="salary-history">
                                                     <span class="mega-menu-service-icon">
                                                         <i class="tji-service-2"></i>
                                                     </span>
-                                                    <span class="mega-menu-service-title">Customer Experience Solutions</span>
+                                                    <span class="mega-menu-service-title">Employment Salary History</span> 
                                                     <span class="mega-menu-service-nav">
                                                         <i class="tji-arrow-right-long"></i>
                                                         <i class="tji-arrow-right-long"></i>

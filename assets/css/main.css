@@ -16030,7 +16030,7 @@ blockquote cite::before {
   display: inline-flex;
 }
 .service-categories ul li a:hover, .service-categories ul li a.active {
-  color: var(--tj-color-common-white);
+  color: var(--tj-color-theme-dark);
   background-color: var(--tj-color-theme-primary);
 }
 .service-categories ul li a:hover span, .service-categories ul li a.active span {

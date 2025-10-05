@@ -18,44 +18,31 @@
                                     <li class="<?= ($currentPage === 'about') ? 'current-menu-item' : '' ?>"><a href="about">About us</a></li>
                                     
                                     <li class="has-dropdown"><a href="#">Services</a>
-                                        <ul class="sub-menu  mega-menu-service">
-                                        <li> <a class="mega-menu-service-single" href="service-details.html"> <span
-                                                class="mega-menu-service-icon">
-                                                <i class="tji-service-1"></i>
-                                            </span> <span class="mega-menu-service-title">Business Strategy Development</span> <span
-                                                class="mega-menu-service-nav"><i class="tji-arrow-right-long"></i><i
-                                                class="tji-arrow-right-long"></i></span></a></li>
-                                        <li> <a class="mega-menu-service-single" href="service-details.html"> <span
-                                                class="mega-menu-service-icon">
-                                                <i class="tji-service-2"></i>
-                                            </span> <span class="mega-menu-service-title">Customer Experience Solutions</span> <span
-                                                class="mega-menu-service-nav"><i class="tji-arrow-right-long"></i><i
-                                                class="tji-arrow-right-long"></i></span></a></li>
-                                        <li> <a class="mega-menu-service-single" href="service-details.html"> <span
-                                                class="mega-menu-service-icon">
-                                                <i class="tji-service-3"></i>
-                                            </span> <span class="mega-menu-service-title">Sustainability and ESG Consulting</span> <span
-                                                class="mega-menu-service-nav"><i class="tji-arrow-right-long"></i><i
-                                                class="tji-arrow-right-long"></i></span></a></li>
-                                        <li> <a class="mega-menu-service-single" href="service-details.html"> <span
-                                                class="mega-menu-service-icon">
-                                                <i class="tji-service-4"></i>
-                                            </span> <span class="mega-menu-service-title">Training and Development Programs</span> <span
-                                                class="mega-menu-service-nav"><i class="tji-arrow-right-long"></i><i
-                                                class="tji-arrow-right-long"></i></span></a></li>
-                                        <li> <a class="mega-menu-service-single" href="service-details.html"> <span
-                                                class="mega-menu-service-icon">
-                                                <i class="tji-service-5"></i>
-                                            </span> <span class="mega-menu-service-title">IT Support & Maintenance</span> <span
-                                                class="mega-menu-service-nav"><i class="tji-arrow-right-long"></i><i
-                                                class="tji-arrow-right-long"></i></span></a></li>
-                                        <li> <a class="mega-menu-service-single" href="service-details.html"> <span
-                                                class="mega-menu-service-icon">
-                                                <i class="tji-service-6"></i>
-                                            </span> <span class="mega-menu-service-title">Marketing Strategy & Campaigns</span> <span
-                                                class="mega-menu-service-nav"><i class="tji-arrow-right-long"></i><i
-                                                class="tji-arrow-right-long"></i></span></a></li>
-
+                                        <ul class="sub-menu mega-menu-service">
+                                            <li>
+                                                <a class="mega-menu-service-single" href="proof-of-fund">
+                                                    <span class="mega-menu-service-icon">
+                                                        <i class="tji-service-1"></i>
+                                                    </span>
+                                                    <span class="mega-menu-service-title">Proof of Funds (POF)</span>
+                                                    <span class="mega-menu-service-nav">
+                                                        <i class="tji-arrow-right-long"></i>
+                                                        <i class="tji-arrow-right-long"></i>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="mega-menu-service-single" href="salary-history">
+                                                    <span class="mega-menu-service-icon">
+                                                        <i class="tji-service-2"></i>
+                                                    </span>
+                                                    <span class="mega-menu-service-title">Employment Salary History</span> 
+                                                    <span class="mega-menu-service-nav">
+                                                        <i class="tji-arrow-right-long"></i>
+                                                        <i class="tji-arrow-right-long"></i>
+                                                    </span>
+                                                </a>
+                                            </li>
                                         </ul>
                                     </li>
 
