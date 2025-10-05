@@ -9443,7 +9443,7 @@ START: About CSS
 }
 
 .customers-box.style-2 {
-  background-color: var(--tj-color-theme-primary);
+  background-color: var(--tj-color-theme-dark);
   height: 100%;
   position: relative;
   overflow: hidden;
@@ -13619,7 +13619,7 @@ START: Theme Slider CSS
 }
 
 .tj-slider-item {
-  min-height: 92.5vh;
+  min-height: 72.5vh;
   background-color: #0E423E;
   position: relative;
   z-index: 1;
@@ -13811,7 +13811,7 @@ START: Theme Slider CSS
 }
 .hero-thumb .thumb-item {
   width: 80px !important;
-  height: 80px;
+  /* height: 80px; */
   border-radius: 6px;
   overflow: hidden;
   position: relative;
