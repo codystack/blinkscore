@@ -30,7 +30,6 @@ include "./components/sticky-navbar.php";
                                     <div>
                                         <p class="muted">Effective Date: October 5th 2025</p>
                                         <p>Welcome to BlinksCore. By accessing or using our website and services, you agree to be bound by the following Terms of Use. If you do not agree with any part of these terms, please do not use our services.</p>
-                                        <p></p>
                                     </div>
 
                                     <div>
@@ -121,7 +120,7 @@ include "./components/sticky-navbar.php";
                                         <h4>Contact Us</h4>
                                         <p>For any questions regarding these Terms, please contact:</p>
                                         <p>
-                                            <b>Email:</b> hello@blinkscore.com<br />
+                                            <b>Email:</b> hello@blinkscore.ng<br />
                                             <b>Address:</b> Shop E 284, Road 2, Ikota Shopping Complex Lagos, Nigeria.
                                         </p>
                                     </div>

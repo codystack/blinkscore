@@ -50,7 +50,7 @@ include "./components/sticky-navbar.php";
                                     <h3 class="contact-title">Email us</h3>
                                     <ul class="contact-list">
                                         <li><a href="mailto:hello@blinkscore.ng">hello@blinkscore.ng</a></li>
-                                        <li><a href="mailto:blinks.core@gmail.com">blinks.core@gmail.com</a></li>
+                                        <li><a href="mailto:application@blinkscore.ng">application@blinkscore.ng</a></li>
                                     </ul>
                                 </div>
                             </div>
