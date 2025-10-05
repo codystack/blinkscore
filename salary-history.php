@@ -15,7 +15,7 @@ include "./components/sticky-navbar.php";
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="tj-page-header-content text-center">
-                                <h1 class="tj-page-title">Proof of Fund</h1>
+                                <h1 class="tj-page-title">Employment Salary History</h1>
                                 </div>
                             </div>
                         </div>
@@ -58,12 +58,12 @@ include "./components/sticky-navbar.php";
                                         <h4 class="widget-title">More services</h4>
                                         <ul>
                                             <li>
-                                                <a class="active" href="proof-of-fund">Proof of Funds (POF)
+                                                <a class="" href="proof-of-fund">Proof of Funds (POF)
                                                     <span class="icon"><i class="tji-arrow-right"></i></span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a class="" href="salary-history">Employment Salary History
+                                                <a class="active" href="salary-history">Employment Salary History
                                                     <span class="icon"><i class="tji-arrow-right"></i></span>
                                                 </a>
                                             </li>

@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="google-site-verification" content="OBfZzmfRCYv38ZBwNMZZQ1h2vpQCXpap5wzO9LZrCYM" />
     
     <meta name="description" content="BlinksCore is a trusted financial company based in Lagos, Nigeria, specializing in providing Proof of Funds and Employment Salary History services. We offer reliable documentation solutions for individuals and businesses to meet financial and compliance requirements.">
     <meta property="og:url" content="https://blinkscore.ng/"/>
