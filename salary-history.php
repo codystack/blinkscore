@@ -29,25 +29,25 @@ include "./components/sticky-navbar.php";
                             <div class="col-lg-8">
                                 <div class="post-details-wrapper">
                                     <div class="blog-images wow fadeInUp" data-wow-delay=".1s">
-                                        <img src="./assets/images/pof.webp" alt="Images">
+                                        <img src="./assets/images/salary-history.jpg" alt="Images">
                                     </div>
-                                    <h2 class="title title-anim">Proof of Funds (POF)</h2>
+                                    <h2 class="title title-anim">Employment Salary History</h2>
                                     <div class="blog-text">
-                                        <p class="wow fadeInUp" data-wow-delay=".3s">At BlinksCore, we provide verifiable Proof of Funds (POF) documentation to support a wide range of financial needs, including visa applications, international transactions, business investments, and property purchases.</p>
-                                        <p class="wow fadeInUp" data-wow-delay=".3s">Our POF service is fast, secure, and backed by trusted Nigerian and international banking partners. Whether you need ₦1 million or over ₦500 million+, we offer tailored solutions to match your requirements.</p>
-                                        <h4 class="wow fadeInUp" data-wow-delay=".3s">What You Get</h4>
+                                        <p class="wow fadeInUp" data-wow-delay=".3s">Need to verify your income and employment background? BlinksCore provides accurate, professional Employment Salary History reports that meet the standards of embassies, financial institutions, and employers.</p>
+                                        <p class="wow fadeInUp" data-wow-delay=".3s">We work with credible sources to create documentation that reflects your employment timeline and income history in a way that’s easy to understand and verify.</p>
+                                        <h4 class="wow fadeInUp" data-wow-delay=".3s">What’s Included</h4>
                                         <ul class="wow fadeInUp" data-wow-delay=".3s">
-                                            <li><span><i class="tji-check"></i></span>Bank-issued Proof of Funds letter</li>
-                                            <li><span><i class="tji-check"></i></span>Funds held in a verifiable account for the agreed period</li>
-                                            <li><span><i class="tji-check"></i></span>Quick processing time (24–48 hours)</li>
-                                            <li><span><i class="tji-check"></i></span>Nationwide and remote access to our services</li>
+                                            <li><span><i class="tji-check"></i></span>Employer details and employment duration</li>
+                                            <li><span><i class="tji-check"></i></span>Monthly or annual salary breakdown</li>
+                                            <li><span><i class="tji-check"></i></span>Official formatting suitable for embassies, visa processing, and banks</li>
+                                            <li><span><i class="tji-check"></i></span>Fast turnaround and strict confidentiality</li>
                                         </ul>
-                                        <h4 class="wow fadeInUp" data-wow-delay=".3s">Common Use Cases</h4>
+                                        <h4 class="wow fadeInUp" data-wow-delay=".3s">Use Cases</h4>
                                         <ul class="wow fadeInUp" data-wow-delay=".3s">
-                                            <li><span><i class="tji-check"></i></span>Immigration and visa applications</li>
-                                            <li><span><i class="tji-check"></i></span>International study or travel</li>
-                                            <li><span><i class="tji-check"></i></span>Business or investment verification</li>
-                                            <li><span><i class="tji-check"></i></span>Loan or lease approvals</li>
+                                            <li><span><i class="tji-check"></i></span>Visa and immigration applications</li>
+                                            <li><span><i class="tji-check"></i></span>Loan and mortgage approvals</li>
+                                            <li><span><i class="tji-check"></i></span>Employment background checks</li>
+                                            <li><span><i class="tji-check"></i></span>Salary verification for relocation or onboarding</li>
                                         </ul>
                                     </div>
                                 </div>
