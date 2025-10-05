@@ -1,11 +1,15 @@
-    <header class="header-area header-2 header-absolute section-gap-x">
+<?php
+$currentPage = basename($_SERVER['PHP_SELF'], ".php"); 
+// e.g. "dashboard" if you’re on dashboard.php
+?>
+    <header class="header-area header-1 section-gap-x">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
                     <div class="header-wrapper">
                         <div class="site_logo">
                             <a class="logo" href="./">
-                                <img src="./assets/images/logo_light.svg" width="200" alt="logo">
+                                <img src="./assets/images/logo-dark.svg" width="200" alt="logo">
                             </a>
                         </div>
 
@@ -36,7 +40,7 @@
                                                     <span class="mega-menu-service-icon">
                                                         <i class="tji-service-2"></i>
                                                     </span>
-                                                    <span class="mega-menu-service-title">Customer Experience Solutions</span>
+                                                    <span class="mega-menu-service-title">Customer Experience Solutions</span> 
                                                     <span class="mega-menu-service-nav">
                                                         <i class="tji-arrow-right-long"></i>
                                                         <i class="tji-arrow-right-long"></i>
@@ -45,7 +49,7 @@
                                             </li>
                                         </ul>
                                     </li>
-
+                                
                                     <li class="<?= ($currentPage === 'faq') ? 'current-menu-item' : '' ?>"><a href="faq">FAQ's</a></li>
 
                                     <li class="<?= ($currentPage === 'contact') ? 'current-menu-item' : '' ?>"><a href="contact">Contact</a></li>
@@ -56,8 +60,8 @@
                         <div class="header-right-item d-none d-lg-inline-flex">
                             <div class="header-button">
                                 <a class="tj-primary-btn" href="https://app.blinkscore.ng" target="_blank">
-                                <span class="btn-text"><span>Get Started</span></span>
-                                <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                                    <span class="btn-text"><span>Get Started</span></span>
+                                    <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                                 </a>
                             </div>
                         </div>

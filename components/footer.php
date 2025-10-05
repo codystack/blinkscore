@@ -1,4 +1,3 @@
-            <!-- start: Footer Section -->
             <footer class="tj-footer-section footer-2 section-gap-x pt-0">
                 <div class="footer-main-area">
                     <div class="container">
@@ -35,34 +34,35 @@
                                     </ul>
                                 </div>
                             </div>
-                        <div class="col-xl-3 col-md-6">
-                            <div class="footer-widget widget-contact wow fadeInUp" data-wow-delay=".7s">
-                            <h5 class="title">Our Office</h5>
-                            <div class="footer-contact-info">
-                                <div class="contact-item">
-                                    <span>Shop E 284, Road 2, Ikota Shopping Complex, Ikota Lagos.</span>
-                                </div>
-                                <!-- <div class="contact-item">
-                                    <a href="tel:10095447818">P: +1 (009) 544-7818</a>
-                                    <a href="mailto:support@bexon.com">M: support@bexon.com</a>
-                                </div> -->
-                                <div class="social-links style-3">
-                                    <ul>
-                                        <li><a href="https://www.facebook.com/" target="_blank"><i
-                                                class="fa-brands fa-facebook-f"></i></a>
-                                        </li>
-                                        <li><a href="https://www.instagram.com/" target="_blank"><i
-                                                class="fa-brands fa-instagram"></i></a>
-                                        </li>
-                                        <li><a href="https://x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/" target="_blank"><i
-                                                class="fa-brands fa-linkedin-in"></i></a>
-                                        </li>
-                                    </ul>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="footer-widget widget-contact wow fadeInUp" data-wow-delay=".7s">
+                                    <h5 class="title">Our Office</h5>
+                                    <div class="footer-contact-info">
+                                        <div class="contact-item">
+                                            <span>Shop E 284, Road 2, Ikota Shopping Complex, Ikota Lagos.</span>
+                                        </div>
+                                        <div class="social-links style-3">
+                                            <ul>
+                                                <li>
+                                                    <a href="https://www.facebook.com/blinkscorehq" target="_blank">
+                                                        <i class="fa-brands fa-facebook-f"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.instagram.com/blinkscorehq" target="_blank">
+                                                        <i class="fa-brands fa-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://x.com/blinkscorehq" target="_blank">
+                                                        <i class="fa-brands fa-x-twitter"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            </div>
-                        </div>
                         </div>
                     </div>
                 </div>
@@ -80,13 +80,12 @@
                     </div>
                 </div>
                 <div class="bg-shape-1">
-                    <img src="assets/images/shape/pattern-2.svg" alt="">
+                    <img src="./assets/images/shape/pattern-2.svg" alt="">
                 </div>
                 <div class="bg-shape-2">
-                    <img src="assets/images/shape/pattern-3.svg" alt="">
+                    <img src="./assets/images/shape/pattern-3.svg" alt="">
                 </div>
             </footer>
-            <!-- end: Footer Section -->
         </div>
     </div>
   

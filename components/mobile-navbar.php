@@ -20,7 +20,7 @@
                     <div class="contact-info">
                         <div class="contact-item">
                             <span class="subtitle">Phone</span>
-                            <a class="contact-link" href="tel:8089091313">+234 913-757-1407</a>
+                            <a class="contact-link" href="tel:+2349137571407">+234 913-757-1407</a>
                         </div>
                         <div class="contact-item">
                             <span class="subtitle">Email</span>

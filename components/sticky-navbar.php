@@ -10,13 +10,13 @@
                             </a>
                         </div>
 
-                        <!-- navigation -->
                         <div class="menu-area d-none d-lg-inline-flex align-items-center">
                             <nav class="mainmenu">
                                 <ul>
-                                    <li><a href="./">Home</a></li>
+                                    <li class="<?= ($currentPage === './') ? 'current-menu-item' : '' ?>"><a href="./">Home</a></li>
 
-                                    <li><a href="about">About us</a></li>
+                                    <li class="<?= ($currentPage === 'about') ? 'current-menu-item' : '' ?>"><a href="about">About us</a></li>
+                                    
                                     <li class="has-dropdown"><a href="#">Services</a>
                                         <ul class="sub-menu  mega-menu-service">
                                         <li> <a class="mega-menu-service-single" href="service-details.html"> <span
@@ -58,12 +58,14 @@
 
                                         </ul>
                                     </li>
-                                    <li><a href="contact">Contact</a></li>
+
+                                    <li class="<?= ($currentPage === 'faq') ? 'current-menu-item' : '' ?>"><a href="faq">FAQ's</a></li>
+
+                                    <li class="<?= ($currentPage === 'contact') ? 'current-menu-item' : '' ?>"><a href="contact">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
 
-                        <!-- header right info -->
                         <div class="header-right-item d-none d-lg-inline-flex">
                             <div class="header-button">
                                 <a class="tj-primary-btn" href="https://app.blinkscore.ng" target="_blank">
@@ -73,7 +75,6 @@
                             </div>
                         </div>
 
-                        <!-- menu bar -->
                         <div class="menu_bar mobile_menu_bar d-lg-none">
                             <span></span>
                             <span></span>
