@@ -151,7 +151,6 @@ include "./components/sticky-navbar.php";
                                             <b>Phone:</b> +234 913-757-1407
                                         </p>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
