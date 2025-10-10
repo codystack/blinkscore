@@ -18,8 +18,8 @@
                                 <div class="footer-widget footer-col-2 widget-nav-menu wow fadeInUp" data-wow-delay=".3s">
                                     <h5 class="title">Company</h5>
                                     <ul>
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">About us</a></li>
+                                        <li><a href="./">Home</a></li>
+                                        <li><a href="about">About us</a></li>
                                         <li><a href="contact">Contact us</a></li>
                                     </ul>
                                 </div>
