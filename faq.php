@@ -89,8 +89,8 @@ include "./components/sticky-navbar.php";
                                     </div>
 
                                     <div class="accordion-item wow fadeInUp" data-wow-delay=".3s">
-                                        <button class="faq-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-5" aria-expanded="false">What is the minimum and maximum amount you provide for proof of funds?</button>
-                                        <div id="faq-5" class="collapse" data-bs-parent="#faqOne">
+                                        <button class="faq-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-7" aria-expanded="false">What is the minimum and maximum amount you provide for proof of funds?</button>
+                                        <div id="faq-7" class="collapse" data-bs-parent="#faqOne">
                                             <div class="accordion-body faq-text">
                                                 <p>We provide Proof of Funds ranging from ₦1 million to over ₦500 million+, based on your specific requirements.</p>
                                             </div>
@@ -98,8 +98,8 @@ include "./components/sticky-navbar.php";
                                     </div>
 
                                     <div class="accordion-item wow fadeInUp" data-wow-delay=".3s">
-                                        <button class="faq-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-5" aria-expanded="false">Will my funds be available for withdrawal?</button>
-                                        <div id="faq-5" class="collapse" data-bs-parent="#faqOne">
+                                        <button class="faq-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-8" aria-expanded="false">Will my funds be available for withdrawal?</button>
+                                        <div id="faq-8" class="collapse" data-bs-parent="#faqOne">
                                             <div class="accordion-body faq-text">
                                                 <p>No, the Proof of Funds we provide is strictly for verification purposes and cannot be withdrawn or transferred. It serves solely as a financial guarantee for your transaction.</p>
                                             </div>
@@ -107,8 +107,8 @@ include "./components/sticky-navbar.php";
                                     </div>
 
                                     <div class="accordion-item wow fadeInUp" data-wow-delay=".3s">
-                                        <button class="faq-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-5" aria-expanded="false">What happens if my proof of funds is rejected?</button>
-                                        <div id="faq-5" class="collapse" data-bs-parent="#faqOne">
+                                        <button class="faq-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-9" aria-expanded="false">What happens if my proof of funds is rejected?</button>
+                                        <div id="faq-9" class="collapse" data-bs-parent="#faqOne">
                                             <div class="accordion-body faq-text">
                                                 <p>While rare, in the unlikely event of a rejection, we will carefully review the issue and provide either a suitable solution or a refund, depending on the circumstances.</p>
                                             </div>
