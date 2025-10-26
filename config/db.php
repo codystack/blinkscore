@@ -9,14 +9,14 @@ $env = (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) ? 'development' : 
 // Database Settings
 if ($env === 'development') {
     $db_host = 'localhost';
-    $db_name = 'vineyard_intranet';
+    $db_name = 'blinkscore';
     $db_user = 'root';
     $db_pass = '';
 } else {
     $db_host = 'localhost';
-    $db_name = 'thevine1_intranet';
-    $db_user = 'thevine1_intranet';
-    $db_pass = 'r8DxC2NsdyXXqz@';
+    $db_name = 'miztkyno_blinkscore';
+    $db_user = 'miztkyno_blinkscore';
+    $db_pass = 'hycpin-1busho-racnyM';
 }
 
 // PDO Configuration

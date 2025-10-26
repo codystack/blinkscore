@@ -1,3 +1,20 @@
+<?php
+require_once __DIR__ . '/../config/db.php';
+
+$user_ip = $_SERVER['REMOTE_ADDR'];
+$page = 'home';
+
+// Check if IP already exists
+$stmt = $pdo->prepare("SELECT visitorip FROM traffic WHERE page = ? AND visitorip = ?");
+$stmt->execute([$page, $user_ip]);
+
+if ($stmt->rowCount() === 0) {
+    // New visitor – insert
+    $insert = $pdo->prepare("INSERT INTO traffic (page, visitorip) VALUES (?, ?)");
+    $insert->execute([$page, $user_ip]);
+}
+?>
+
 <!doctype html>
 <html class="no-js" lang="en">
 
