@@ -1,17 +1,32 @@
 <?php
 require_once __DIR__ . '/../config/db.php';
 
-$user_ip = $_SERVER['REMOTE_ADDR'];
-$page = 'home';
+// Function to get user IP (handles proxies)
+function getUserIP() {
+    if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+        return $_SERVER['HTTP_CLIENT_IP'];
+    } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+        return explode(',', $_SERVER['HTTP_X_FORWARDED_FOR'])[0];
+    } else {
+        return $_SERVER['REMOTE_ADDR'];
+    }
+}
 
-// Check if IP already exists
-$stmt = $pdo->prepare("SELECT visitorip FROM traffic WHERE page = ? AND visitorip = ?");
-$stmt->execute([$page, $user_ip]);
+$user_ip = getUserIP();
+$page = basename($_SERVER['PHP_SELF']); // Dynamically set page name
 
-if ($stmt->rowCount() === 0) {
-    // New visitor – insert
-    $insert = $pdo->prepare("INSERT INTO traffic (page, visitorip) VALUES (?, ?)");
-    $insert->execute([$page, $user_ip]);
+try {
+    // Check if this IP already visited the page today
+    $stmt = $pdo->prepare("SELECT visitorip FROM traffic WHERE page = ? AND visitorip = ? AND DATE(visit_date) = CURDATE()");
+    $stmt->execute([$page, $user_ip]);
+
+    if ($stmt->rowCount() === 0) {
+        // Not found → insert new record
+        $insert = $pdo->prepare("INSERT INTO traffic (page, visitorip) VALUES (?, ?)");
+        $insert->execute([$page, $user_ip]);
+    }
+} catch (PDOException $e) {
+    error_log("Traffic tracking error: " . $e->getMessage());
 }
 ?>
 
